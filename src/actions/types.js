@@ -1,0 +1,11 @@
+export const ADD_CHAR = "ADD_CHAR";
+export const ADD_DOT = "ADD_DOT";
+export const NEW_CHAR = "NEW_CHAR";
+export const NEW_OPERATION = "NEW_OPERATION";
+export const EXECUTE_OPERATION = "EXECUTE_OPERATION";
+export const NEW_NUMBER = "NEW_NUMBER";
+export const EQUALS = "EQUALS";
+export const CLEAR = "CLEAR";
+export const ADD_TO_MEMORY = "ADD_TO_MEMORY";
+export const RETURN_FROM_MEMORY = "RETURN_FROM_MEMORY";
+export const CLEAR_MEMORY = "CLEAR_MEMORY";
