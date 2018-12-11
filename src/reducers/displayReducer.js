@@ -74,6 +74,9 @@ const displayReducer = (state = INITIAL_STATE, action) => {
       }
       return { ...state, memo: state.text };
     case RETURN_FROM_MEMORY:
+      if (state.memo && state.text !== "0" && state.currentOperation) {
+        return { ...state, text: state.memo, prevNumber: state.text };
+      }
       if (state.memo) {
         return { ...state, text: state.memo };
       }
